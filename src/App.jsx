@@ -6,6 +6,7 @@ import Contacts from './pages/contacts';
 import Dashboard from './pages/dashboard';
 import Sidebar from './pages/global/Sidebar';
 import Topbar from './pages/global/Topbar';
+import Invoices from './pages/invoices';
 import Team from './pages/team';
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
+              <Route path="/invoices" element={<Invoices />} />
             </Routes>
           </main>
         </Box>
