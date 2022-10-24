@@ -11,7 +11,7 @@
 ### Clone to local
 
 ```bash
-git clone https://github.com/AnwarHossainSR/react-vite-eslint-prettier-husky-template.git
+git clone https://github.com/AnwarHossainSR/admin-dashboard-pro.git
 cd my-app
 yarn install # If you don't have yarn installed, run: npm install -g yarn
 ```
