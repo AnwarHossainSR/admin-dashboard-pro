@@ -3,10 +3,12 @@ import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { ColorModeContext, tokens, useMode } from './context/theme';
 import Bar from './pages/bar';
+import Calendar from './pages/calendar';
 import Contacts from './pages/contacts';
 import Dashboard from './pages/dashboard';
 import FAQ from './pages/faq';
 import Form from './pages/form';
+import Geography from './pages/geography';
 import Sidebar from './pages/global/Sidebar';
 import Topbar from './pages/global/Topbar';
 import Invoices from './pages/invoices';
@@ -42,6 +44,8 @@ const App = () => {
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<FAQ />} />
+              <Route path="/geography" element={<Geography />} />
+              <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </main>
         </Box>
