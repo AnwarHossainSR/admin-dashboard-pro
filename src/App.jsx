@@ -2,6 +2,7 @@ import { Box, CssBaseline, ThemeProvider } from '@mui/material';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { ColorModeContext, tokens, useMode } from './context/theme';
+import Contacts from './pages/contacts';
 import Dashboard from './pages/dashboard';
 import Sidebar from './pages/global/Sidebar';
 import Topbar from './pages/global/Topbar';
@@ -28,6 +29,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
+              <Route path="/contacts" element={<Contacts />} />
             </Routes>
           </main>
         </Box>
