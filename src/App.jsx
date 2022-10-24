@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { ColorModeContext, tokens, useMode } from './context/theme';
 import Contacts from './pages/contacts';
 import Dashboard from './pages/dashboard';
+import Form from './pages/form';
 import Sidebar from './pages/global/Sidebar';
 import Topbar from './pages/global/Topbar';
 import Invoices from './pages/invoices';
@@ -32,6 +33,7 @@ const App = () => {
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
+              <Route path="/form" element={<Form />} />
             </Routes>
           </main>
         </Box>
