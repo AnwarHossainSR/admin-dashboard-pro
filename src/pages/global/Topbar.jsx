@@ -4,7 +4,8 @@ import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import SearchIcon from '@mui/icons-material/Search';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import { Box, IconButton, useTheme } from '@mui/material';
+import { Box, useTheme } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
 import { useContext } from 'react';
 import { ColorModeContext, tokens } from '../../context/theme.js';
@@ -15,7 +16,12 @@ const Topbar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box display="flex" justifyContent="space-between" p={2}>
+    <Box
+      display="flex"
+      justifyContent="space-between"
+      p={2}
+      backgroundColor={colors.primary[400]}
+    >
       {/* SEARCH BAR */}
       <Box
         display="flex"
