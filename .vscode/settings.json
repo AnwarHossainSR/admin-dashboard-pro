@@ -5,5 +5,17 @@
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["Anwar", "Hossain"]
+  "cSpell.words": [
+    "ADMINIS",
+    "Anwar",
+    "chartjs",
+    "daygrid",
+    "formik",
+    "fullcalendar",
+    "Hossain",
+    "nivo",
+    "reduxjs",
+    "timegrid",
+    "Topbar"
+  ]
 }
