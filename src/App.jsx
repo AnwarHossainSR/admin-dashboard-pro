@@ -2,6 +2,7 @@ import { Box, CssBaseline, ThemeProvider } from '@mui/material';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { ColorModeContext, tokens, useMode } from './context/theme';
+import Bar from './pages/bar';
 import Contacts from './pages/contacts';
 import Dashboard from './pages/dashboard';
 import Form from './pages/form';
@@ -34,6 +35,7 @@ const App = () => {
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
+              <Route path="/bar" element={<Bar />} />
             </Routes>
           </main>
         </Box>
